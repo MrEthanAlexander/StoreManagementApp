@@ -1,0 +1,54 @@
+
+Outline
+
+
+
+Store
+StoreSchedule
+
+
+
+WorkSchedule
+Array[Days]
+
+
+
+StoreDay
+Extends WorkerSchedule
+Int - MinWorkers on shift
+Int - MaxWorkers on shift
+Int - MinIncomeRequired
+
+
+StoreSchedule
+Array[StoreDay]
+
+
+
+WorkerDay
+String - Name
+Int - Start Time
+Int - End Time
+
+
+
+Worker
+String - Name
+Double - Salary
+WorkSchedule
+Int - ID
+
+
+
+
+
+
+Process
+
+OnStart - Create Main Menu
+
+Options
+  Edit Store Info
+  Edit Employee Info
+  Print Store Info
+  Print Employee Info
